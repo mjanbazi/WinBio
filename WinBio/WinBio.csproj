@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C8CBE4A-96AA-40F3-B990-C3DAFE70E671}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinBioWrapper</RootNamespace>
+    <AssemblyName>WinBioWrapper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DLL\CAPTURE_CALLBACK_CONTEXT.cs" />
+    <Compile Include="DLL\_CREDUI_INFO.cs" />
+    <Compile Include="DLL\_TOKEN_USER.cs" />
+    <Compile Include="DLL\VERIFY_CALLBACK_CONTEXT.cs" />
+    <Compile Include="DLL\WINBIO_ERRORS.cs" />
+    <Compile Include="Native.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DLL\BIO_UNIT.cs" />
+    <Compile Include="DLL\_WINBIO_EVENT_ERROR.cs" />
+    <Compile Include="DLL\_WINBIO_EVENT_UNCLAIMED_IDENTIFY.cs" />
+    <Compile Include="DLL\_WINVIO_EVENT_UNCLAIMED.cs" />
+    <Compile Include="DLL\WINBIO_BIOMETRIC_SENSOR_SUBTYPE.cs" />
+    <Compile Include="DLL\WINBIO_BIOMETRIC_SUBTYPE.cs" />
+    <Compile Include="DLL\WINBIO_BIOMETRIC_TYPE.cs" />
+    <Compile Include="DLL\WINBIO_BIR.cs" />
+    <Compile Include="DLL\WINBIO_BIR_DATA.cs" />
+    <Compile Include="DLL\WINBIO_BIR_DATA_FLAGS.cs" />
+    <Compile Include="DLL\WINBIO_BIR_PURPOSE.cs" />
+    <Compile Include="DLL\WINBIO_BSP_SCHEMA.cs" />
+    <Compile Include="DLL\WINBIO_CAPABILITIES.cs" />
+    <Compile Include="DLL\WINBIO_COMPONENT.cs" />
+    <Compile Include="DLL\WINBIO_CREDENTIAL_FORMAT.cs" />
+    <Compile Include="DLL\WINBIO_CREDENTIAL_STATE.cs" />
+    <Compile Include="DLL\WINBIO_CREDENTIAL_TYPE.cs" />
+    <Compile Include="DLL\WINBIO_DATABASE.cs" />
+    <Compile Include="DLL\WINBIO_EVENT.cs" />
+    <Compile Include="DLL\WINBIO_EVENT_TYPE.cs" />
+    <Compile Include="DLL\WINBIO_IDENTITY.cs" />
+    <Compile Include="DLL\WINBIO_IDENTITY_TYPE.cs" />
+    <Compile Include="DLL\WINBIO_POOL_TYPE.cs" />
+    <Compile Include="DLL\WINBIO_PROPERTY_TYPE.cs" />
+    <Compile Include="DLL\WINBIO_REJECT_DETAIL.cs" />
+    <Compile Include="DLL\WINBIO_SENSOR_MODE.cs" />
+    <Compile Include="DLL\WINBIO_SESSION_FLAGS.cs" />
+    <Compile Include="DLL\WINBIO_SETTING_SOURCE_TYPE.cs" />
+    <Compile Include="DLL\WINBIO_STORAGE_SCHEMA.cs" />
+    <Compile Include="DLL\_WINBIO_IDENTITY_SID.cs" />
+    <Compile Include="DLL\WINBIO_STRING.cs" />
+    <Compile Include="DLL\WINBIO_UNIT_SCHEMA.cs" />
+    <Compile Include="DLL\WINBIO_VERSION.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

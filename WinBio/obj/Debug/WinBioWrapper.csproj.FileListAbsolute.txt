@@ -1,0 +1,10 @@
+C:\Users\Janbazi\Desktop\winBio\Solution4\WinBioWrapper\bin\Debug\WinBioWrapper.dll
+C:\Users\Janbazi\Desktop\winBio\Solution4\WinBioWrapper\bin\Debug\WinBioWrapper.pdb
+C:\Users\Janbazi\Desktop\winBio\Solution4\WinBioWrapper\obj\Debug\WinBioWrapper.csprojResolveAssemblyReference.cache
+C:\Users\Janbazi\Desktop\winBio\Solution4\WinBioWrapper\obj\Debug\WinBioWrapper.dll
+C:\Users\Janbazi\Desktop\winBio\Solution4\WinBioWrapper\obj\Debug\WinBioWrapper.pdb
+C:\Users\Janbazi\Desktop\winBio\Bio\Solution4\WinBioWrapper\bin\Debug\WinBioWrapper.dll
+C:\Users\Janbazi\Desktop\winBio\Bio\Solution4\WinBioWrapper\bin\Debug\WinBioWrapper.pdb
+C:\Users\Janbazi\Desktop\winBio\Bio\Solution4\WinBioWrapper\obj\Debug\WinBioWrapper.csprojResolveAssemblyReference.cache
+C:\Users\Janbazi\Desktop\winBio\Bio\Solution4\WinBioWrapper\obj\Debug\WinBioWrapper.dll
+C:\Users\Janbazi\Desktop\winBio\Bio\Solution4\WinBioWrapper\obj\Debug\WinBioWrapper.pdb
